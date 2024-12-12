@@ -1,10 +1,10 @@
 <template>
   <div class="login-bg">
     <div class="corner-top-box">
-      <CornerTop></CornerTop>
+      <CornerTop style="opacity: 0.3;"></CornerTop>
     </div>
     <div class="corner-bottom-box">
-      <CornerBottom></CornerBottom>
+      <CornerBottom style="opacity: 0.3;"></CornerBottom>
     </div>
 
     <div class="fly bg-fly-circle1"></div>
@@ -26,6 +26,7 @@ import CornerBottom from './CornerBottom.vue'
   position: fixed;
   overflow: hidden;
   z-index: 1;
+  background: #13103D;
 
   .corner-top-box {
     position: absolute;

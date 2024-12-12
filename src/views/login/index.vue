@@ -53,6 +53,7 @@ import { useTabsStore, useUserStore } from '@/stores'
 import { useLoading } from '@/hooks'
 import * as Regexp from '@/utils/regexp'
 import { isMobile } from '@/utils'
+// import '@/assets/js/canvas-nest.min.js'
 
 defineOptions({ name: 'Login' })
 const router = useRouter()
